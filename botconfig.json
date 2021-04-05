@@ -1,7 +1,7 @@
 {
-    "token": "TOKEN",
-    "ownerid": "OWNER",
-    "status": "STATUS",
-    "prefix": "PREFIX",
-    "privateID": "ONLYSERVER"
+    "token": "int(os.environ.get("Token"))",
+    "ownerid": "int(os.environ.get("Owner"))",
+    "status": "int(os.environ.get("Status"))",
+    "prefix": "int(os.environ.get("Prefix"))",
+    "privateID": "int(os.environ.get("OnlyChannel"))"
 }
